@@ -7,7 +7,9 @@
    <!-- main layout -->
    <definition name="tiles-layout" template="/WEB-INF/views/tiles/index.jsp">
       <put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp" />
-      <put-attribute name="aside" value="/WEB-INF/views/tiles/aside.jsp" />
+      <put-attribute name="aside_user" value="/WEB-INF/views/tiles/aside/aside_user.jsp" />
+      <put-attribute name="aside_prof" value="/WEB-INF/views/tiles/aside/aside_prof.jsp" />
+      <put-attribute name="aside_admin" value="/WEB-INF/views/tiles/aside/aside_admin.jsp" />
       <put-attribute name="body" value="" />
       <put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp" />
    </definition>

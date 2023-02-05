@@ -16,7 +16,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="/resources/sbadmin2/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/resources/sbadmin2/css/sb-admin-2.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -27,7 +27,9 @@
         <!-- Sidebar //////// aside 시작 ////////
         /WEB-INF/views/tiles/aside.jsp
         -->
-		<tiles:insertAttribute name="aside" />
+		<tiles:insertAttribute name="aside_user" />
+		<tiles:insertAttribute name="aside_prof" />
+		<tiles:insertAttribute name="aside_admin" />
         <!-- End of Sidebar //////// aside 끝 //////// -->
 
         <!-- Content Wrapper -->
@@ -65,7 +67,7 @@
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
+        <i class="fas fa-angle-up">top</i>
     </a>
 
     <!-- Logout Modal-->
